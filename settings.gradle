@@ -1,2 +1,2 @@
-include ':app', ':rtrofitadapter', ':mygsonconvert'
+include ':app', ':rtrofitadapter'
 rootProject.name='RetrofitRxjava'

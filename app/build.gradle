@@ -40,7 +40,7 @@ dependencies {
     implementation 'com.github.WGHCWC:everyshow:1.0.5'
 
 
-    implementation 'com.github.WGHCWC:RxtrofitAdapter:2.7.3'
+    implementation 'com.github.WGHCWC:RxtrofitAdapter:2.7.4'
 //    compile project(path: ':mygsonconvert')
 //    compile project(path: ':rtrofitadapter')
 }
