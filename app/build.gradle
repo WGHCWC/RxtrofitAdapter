@@ -16,6 +16,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
 }
 
 dependencies {
@@ -30,9 +34,13 @@ dependencies {
     implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
     implementation 'io.reactivex.rxjava2:rxjava:2.2.4'
     implementation 'io.reactivex.rxjava2:rxandroid:2.1.0'
-    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.4.0'
     implementation 'org.jetbrains:annotations-java5:15.0'
 
     implementation 'com.github.WGHCWC:EventPool:1.0.2'
     implementation 'com.github.WGHCWC:everyshow:1.0.5'
+
+
+    implementation 'com.github.WGHCWC:RxtrofitAdapter:2.7.3'
+//    compile project(path: ':mygsonconvert')
+//    compile project(path: ':rtrofitadapter')
 }

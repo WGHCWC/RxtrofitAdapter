@@ -1,4 +1,4 @@
-package com.wghcwc.retrofitrxjava.gson;
+package com.wghcwc.mygsonconvert;
 
 
 import java.io.IOException;

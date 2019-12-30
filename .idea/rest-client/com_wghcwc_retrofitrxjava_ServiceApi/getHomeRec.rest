@@ -1,34 +1,336 @@
 GET
-{BASE_URL}/v2/update-infos
+{BASE_URL}/v2/home-view-lists
 
 # Headers
 @system: {"uid":"297975","platform":"4","version":"1.1.0","model":"OnePlus"}
-@sign: B2B5A62AD2223AD8C91D8197A345D224&1577603504
+@sign: 7A5FFCBBEB93BDCF190710A95E41A7D3&1577697214
 
 
 
 %%%
-# Duration: 76 ms
+# Duration: 719 ms
 # GET
-# https://app.51uniu.com/v2/update-infos
+# https://app.51uniu.com/v2/home-view-lists
 # Headers
 # @system: {"uid":"297975","platform":"4","version":"1.1.0","model":"OnePlus"}
-# @sign: B2B5A62AD2223AD8C91D8197A345D224&1577603504
+# @sign: 7A5FFCBBEB93BDCF190710A95E41A7D3&1577697214
 
 
-# status 500
+# status 200
 
 @Server: nginx
-@Date: Sun, 29 Dec 2019 09:06:01 GMT
+@Date: Mon, 30 Dec 2019 09:13:40 GMT
 @Content-Type: application/json; charset=UTF-8
 @Transfer-Encoding: chunked
 @Connection: keep-alive
 @X-Powered-By: PHP/7.2.6
 @Vary: Accept
+@X-Pagination-Total-Count: 24536
+@X-Pagination-Page-Count: 1636
+@X-Pagination-Current-Page: 1
+@X-Pagination-Per-Page: 15
+@Link: <https://app.51uniu.com/v2/home-view-lists?page=1&per-page=15>; rel=self, <https://app.51uniu.com/v2/home-view-lists?page=2&per-page=15>; rel=next, <https://app.51uniu.com/v2/home-view-lists?page=1636&per-page=15>; rel=last
 
 {
-  "name": "Internal Server Error",
-  "message": "An internal server error occurred.",
-  "code": 0,
-  "status": 500
+  "code": 200,
+  "message": "ok",
+  "attachData": [
+    {
+      "banner_img": "https://zxhlapp.oss-cn-hangzhou.aliyuncs.com/other/home/20190828165830693443.png",
+      "redirect_url": "https://51uniu.com/app-web/qinggan"
+    },
+    {
+      "banner_img": "https://zxhlapp.oss-cn-hangzhou.aliyuncs.com/other/home/20191213134325593155.png",
+      "redirect_url": "https://51uniu.com/app-web/spread"
+    }
+  ],
+  "data": [
+    {
+      "user_id": 294442,
+      "avatar": "https://mmc.heylove.cn/public/upload/newuserimg/69/69562/avatar/20190318114906.png",
+      "nickname": "猫空",
+      "authInfo": {
+        "id_auth": "1",
+        "edu_auth": "1",
+        "house_auth": "0",
+        "car_auth": "1"
+      },
+      "address": "合肥",
+      "age": 25,
+      "height": 177,
+      "yearly_salary": "20w-30w",
+      "introduce": "人的一生会遇到两个人，一个惊艳了时光，一个温柔了岁月，你会想是哪一个？",
+      "zodiac": "金牛座",
+      "vip": 0,
+      "is_like": 0,
+      "is_top": 1
+    },
+    {
+      "user_id": 294200,
+      "avatar": "https://mmc.heylove.cn/public/upload/newuserimg/69/69185/avatar/20190120020632.png",
+      "nickname": "别",
+      "authInfo": null,
+      "address": "合肥",
+      "age": 24,
+      "height": 180,
+      "yearly_salary": "20w-30w",
+      "introduce": "",
+      "zodiac": "双子座",
+      "vip": 0,
+      "is_like": 0,
+      "is_top": 1
+    },
+    {
+      "user_id": 76642,
+      "avatar": "https://zxhlapp.oss-cn-hangzhou.aliyuncs.com/user_attach/avatar/157647400748976990.jpg",
+      "nickname": "wpsdpd",
+      "authInfo": {
+        "id_auth": "1",
+        "edu_auth": "0",
+        "house_auth": "1",
+        "car_auth": "0"
+      },
+      "address": "南京",
+      "age": 19,
+      "height": 170,
+      "yearly_salary": "20w-30w",
+      "introduce": "你好呀 我是cccc 很高兴认识你 如果喜欢我的话 请给我点赞哟～谢谢 哈哈哈哈哈哈哈哈来得及徐 辛苦继续讲脑壳超巨星真的再见再见再见再见再见再见就抓紧时间",
+      "zodiac": "摩羯座",
+      "vip": 2,
+      "is_like": 0,
+      "is_top": 2
+    },
+    {
+      "user_id": 257390,
+      "avatar": "https://mmc.heylove.cn/public/upload/newuserimg/23/23433/avatar/20180823031834.png",
+      "nickname": "丫丫",
+      "authInfo": {
+        "id_auth": "1",
+        "edu_auth": "0",
+        "house_auth": "0",
+        "car_auth": "1"
+      },
+      "address": "合肥",
+      "age": 26,
+      "height": 172,
+      "yearly_salary": "10w-20w",
+      "introduce": "",
+      "zodiac": "巨蟹座",
+      "vip": 1,
+      "is_like": 0,
+      "is_top": 1
+    },
+    {
+      "user_id": 279624,
+      "avatar": "https://mmc.heylove.cn/public/upload/newuserimg/51/51159/avatar/20180621092530.png",
+      "nickname": "吃葡萄不吐葡萄皮",
+      "authInfo": null,
+      "address": "大兴安岭",
+      "age": 26,
+      "height": 175,
+      "yearly_salary": "10w-20w",
+      "introduce": "3-8",
+      "zodiac": "巨蟹座",
+      "vip": 1,
+      "is_like": 0,
+      "is_top": 2
+    },
+    {
+      "user_id": 296152,
+      "avatar": "https://mmc.heylove.cn/public/upload/newuserimg/72/72521/avatar/20190325043233.png",
+      "nickname": "空心",
+      "authInfo": {
+        "id_auth": "1",
+        "edu_auth": "0",
+        "house_auth": "1",
+        "car_auth": "1"
+      },
+      "address": "北京",
+      "age": 33,
+      "height": 181,
+      "yearly_salary": "20w-30w",
+      "introduce": "",
+      "zodiac": "水瓶座",
+      "vip": 1,
+      "is_like": 0,
+      "is_top": 2
+    },
+    {
+      "user_id": 241836,
+      "avatar": "https://mmc.heylove.cn/public/upload/userimg/1233/picture/20170923900.jpg",
+      "nickname": "鎏金",
+      "authInfo": {
+        "id_auth": "1",
+        "edu_auth": "0",
+        "house_auth": "1",
+        "car_auth": "1"
+      },
+      "address": "合肥",
+      "age": 24,
+      "height": 177,
+      "yearly_salary": "10w-20w",
+      "introduce": "",
+      "zodiac": "处女座",
+      "vip": 1,
+      "is_like": 0,
+      "is_top": 1
+    },
+    {
+      "user_id": 241268,
+      "avatar": "https://mmc.heylove.cn/public/upload/usering/538/picture20170917105.jpg",
+      "nickname": "我是麦子",
+      "authInfo": null,
+      "address": "合肥",
+      "age": 25,
+      "height": 175,
+      "yearly_salary": "10w或以内",
+      "introduce": "",
+      "zodiac": "狮子座",
+      "vip": 0,
+      "is_like": 0,
+      "is_top": 1
+    },
+    {
+      "user_id": 292171,
+      "avatar": "https://mmc.heylove.cn/public/upload/newuserimg/66/66368/avatar/20181212100636.png",
+      "nickname": "天空",
+      "authInfo": null,
+      "address": "合肥",
+      "age": 27,
+      "height": 170,
+      "yearly_salary": "10w-20w",
+      "introduce": "",
+      "zodiac": "双鱼座",
+      "vip": 1,
+      "is_like": 0,
+      "is_top": 1
+    },
+    {
+      "user_id": 274594,
+      "avatar": "https://mmc.heylove.cn/public/upload/newuserimg/44/44957/avatar/20180527050638.png",
+      "nickname": "你还好么",
+      "authInfo": null,
+      "address": "合肥",
+      "age": 23,
+      "height": 177,
+      "yearly_salary": "10w或以内",
+      "introduce": "也许或许未来",
+      "zodiac": "射手座",
+      "vip": 0,
+      "is_like": 0,
+      "is_top": 1
+    },
+    {
+      "user_id": 270552,
+      "avatar": "https://mmc.heylove.cn/public/upload/newuserimg/39/39922/avatar/20180511065422.png",
+      "nickname": "真诚",
+      "authInfo": {
+        "id_auth": "1",
+        "edu_auth": "0",
+        "house_auth": "0",
+        "car_auth": "1"
+      },
+      "address": "合肥",
+      "age": 52,
+      "height": 172,
+      "yearly_salary": "10w-20w",
+      "introduce": "但愿遇到你，是互爱互呵护互遵重互真实的永久组合体。",
+      "zodiac": "白羊座",
+      "vip": 0,
+      "is_like": 0,
+      "is_top": 1
+    },
+    {
+      "user_id": 297661,
+      "avatar": "https://zxhlapp.oss-cn-hangzhou.aliyuncs.com/user_attach/avatar/156929856121354685.jpg",
+      "nickname": "微笑面对一切",
+      "authInfo": {
+        "id_auth": "1",
+        "edu_auth": "0",
+        "house_auth": "0",
+        "car_auth": "0"
+      },
+      "address": "珠海",
+      "age": 37,
+      "height": 180,
+      "yearly_salary": "30w-50w",
+      "introduce": "",
+      "zodiac": "天秤座",
+      "vip": 0,
+      "is_like": 0,
+      "is_top": 2
+    },
+    {
+      "user_id": 296897,
+      "avatar": "https://mmc.heylove.cn/public/upload/newuserimg/73/73638/picture/201904121849138772.jpg",
+      "nickname": "冯子涵",
+      "authInfo": {
+        "id_auth": "1",
+        "edu_auth": "0",
+        "house_auth": "1",
+        "car_auth": "1"
+      },
+      "address": "景德镇",
+      "age": 28,
+      "height": 184,
+      "yearly_salary": "10w或以内",
+      "introduce": "海上的一叶扁舟，经历不少风浪，可最后还是要找一个属于自己的岛",
+      "zodiac": "射手座",
+      "vip": 0,
+      "is_like": 0,
+      "is_top": 2
+    },
+    {
+      "user_id": 266427,
+      "avatar": "https://mmc.heylove.cn/public/upload/newuserimg/34/34846/avatar/20180429072948.png",
+      "nickname": "MrLiu",
+      "authInfo": {
+        "id_auth": "1",
+        "edu_auth": "1",
+        "house_auth": "1",
+        "car_auth": "1"
+      },
+      "address": "北京",
+      "age": 24,
+      "height": 178,
+      "yearly_salary": "10w-20w",
+      "introduce": "难得有心人，且行且珍惜。对眼里长的太阳，笑里全是坦荡，会穿一点的女生没抵抗力。",
+      "zodiac": "摩羯座",
+      "vip": 1,
+      "is_like": 0,
+      "is_top": 2
+    },
+    {
+      "user_id": 292424,
+      "avatar": "https://mmc.heylove.cn/public/upload/newuserimg/66/66657/avatar/20181221094928.png",
+      "nickname": "不吃辣的余",
+      "authInfo": null,
+      "address": "朝阳",
+      "age": 30,
+      "height": 181,
+      "yearly_salary": "10w或以内",
+      "introduce": "88年，广州人，身高181，体重75KG，父母是医生已退休，家里有个姐姐嫁到上海，本人定居北京，在北京有套房，性格 随和开朗 阳光向上 风度翩翩 动静皆宜，爱好，健身 篮球 旅游追剧保养",
+      "zodiac": "双子座",
+      "vip": 1,
+      "is_like": 1,
+      "is_top": 2
+    }
+  ],
+  "_links": {
+    "self": {
+      "href": "https://app.51uniu.com/v2/home-view-lists?page=1&per-page=15"
+    },
+    "next": {
+      "href": "https://app.51uniu.com/v2/home-view-lists?page=2&per-page=15"
+    },
+    "last": {
+      "href": "https://app.51uniu.com/v2/home-view-lists?page=1636&per-page=15"
+    }
+  },
+  "_meta": {
+    "totalCount": 24536,
+    "pageCount": 1636,
+    "currentPage": 1,
+    "perPage": 15
+  }
 }
